@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className="text-[#915eff]">Nayaab</span>
+            Hi, I&apos;m <span className="text-[#915eff]">Swaraj</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2}`}>
             I develop <span className="text-[#915eff]" id="typed-text"></span>

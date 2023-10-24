@@ -35,7 +35,7 @@ const Contact = () => {
       "template_ewv77ia",
       {
         from_name: form.name,
-        to_name: "Nayaab",
+        to_name: "Nayaab", //form.name:"Nayaab"  or to_name:"form.name"
         from_email: form.email,
         to_email: "nayaabazim04@gmail.com",
         message: form.message,

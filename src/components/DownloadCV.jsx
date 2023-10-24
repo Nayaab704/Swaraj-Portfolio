@@ -36,6 +36,10 @@ const DownloadCV = ({ isOpen, setIsOpen }) => {
         delay: 0.3,
       },
     },
+    //
+
+
+    //
     visible: {
       transform: " scale(1) rotateX(0deg)",
       opacity: 1,
@@ -51,12 +55,17 @@ const DownloadCV = ({ isOpen, setIsOpen }) => {
       },
     },
   };
+ 
   return (
     <Dialog
       open={isOpen}
       onClose={() => setIsOpen(false)}
+      //onClose={() => {}}
+      //onClose={preventClose}
       className="relative z-50"
+      //static={true}
     >
+      
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
       <motion.div
         variants={dropIn}
